@@ -1,11 +1,18 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
 
 function App() {
     return (
-        <div>
-            dwefdwdwed
-        </div>
+        <>
+            <Navbar/>
+            <Home/>
+        </>
     );
 }
 
 export default App;
+
+
+
+// https://www.youtube.com/watch?v=TBU12CtcWMU
